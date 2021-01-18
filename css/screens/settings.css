@@ -24,3 +24,32 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+.settings__setting:nth-child(3) {
+  padding-bottom: 45px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.settings__setting:last-child
+  .settings__setting-column
+  .settings__setting__icon-box {
+  box-sizing: border-box;
+  padding-left: 2.5px;
+}
+
+.settings__setting__sm-notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
