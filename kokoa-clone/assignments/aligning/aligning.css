@@ -1,0 +1,30 @@
+body {
+  background-color: tomato;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: cadetblue;
+  height: 50px;
+  width: 50px;
+  border: 2px white solid;
+}
+
+#main {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 2px black solid;
+  background-color: wheat;
+}
+
+#irregular {
+  width: 250px;
+  border-style: dotted;
+}
